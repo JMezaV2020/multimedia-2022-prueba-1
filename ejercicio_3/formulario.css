@@ -1,0 +1,20 @@
+body {
+    background: #ccfffc;
+    margin: 0% 0% 0% 0%;
+  }
+
+hr{
+  border: 1px solid black;
+}
+
+.formulario{
+  margin: 2px;
+}
+
+.calculo{
+  height: 200px;
+  margin-right: 50px;
+  margin-left: 50px;
+  border-radius: 2%;
+  background-color: #ffffff;
+}

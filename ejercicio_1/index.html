@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <div class="formulario">
+        <h2>Ingrese su noticia</h2>
+        <hr>
+        <form action="ingresar.php" method="POST" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <h4>Titulo:</h4>
+                    <input type="text" placeholder="Titulo" name="titulo" required>
+                </tr>
+                <tr>
+                    <h4>Cuerpo de noticia:</h4>
+                    <input type="text" placeholder="Cuerpo" name="cuerpo" required>
+                </tr>
+                <tr>
+                    <h4>Categoria:</h4>
+                    <input type="text" placeholder="Categoria" name="categoria" required>
+                </tr>
+                <tr>
+                    <h4>Añadir imagen: <input name="foto" id="foto" type="file"/></h4>
+                </tr>
+                <tr>
+                    <h4>Autor:</h4>
+                    <input type="text" placeholder="Autor" name="autor" required>
+                </tr>
+                <td>
+                    
+                    <input type="submit" value="ENVIAR"/>
+                    <input type="reset" value="BORRAR"/>
+                    <a href = "tabla.php"><input type="button" value="VER TABLA"/></a>
+                </td>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <div class="formulario">
+        <h2>Ecuacion cuadratica (-b +/- Raiz(b^2 - 4ac)/2a)</h2>
+        <hr>
+        <form action="calculo.php" method="POST">
+            <table>
+                <tr>
+                    <td>a:</td>
+                    <td> <input type="number" placeholder="a" name="a" required></td>
+                </tr>
+                <tr>
+                    <td>b:</td>
+                    <td> <input type="number" placeholder="b" name="b" required></td>
+                </tr>
+                <tr>
+                    <td>c:</td>
+                    <td> <input type="number" placeholder="c" name="c" required></td>
+                </tr>
+                <td>
+                    
+                    <input type="submit" value="ENVIAR"/>
+                    <input type="reset" value="BORRAR"/>
+                </td>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
